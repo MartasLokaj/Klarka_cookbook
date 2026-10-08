@@ -3,6 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cookbook">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAEqUlEQVR4nO3dsXITUQyFYcNQQcErUfLIdPBIUEALxWXueHCOsR1LOtL+X03itfa3NjgT75vf37+egJe8rT4A+CIOSMQBiTggEQck4oBEHJCIAxJxQCIOSMQBiTggEQck4oBEHJCIAxJxQCIOSMQBiTggEQck4oBEHJCIAxJxQCIOSMQBiTggEQck4oBEHJCIAxJxQCIOSMQBiTggEQck4oBEHJDeVR9AnY+f7v6SH9+efhTODhPHAync8k1G5zI6jqcEcftDjAtlYhwJTVx/3CmVDIqjqolLUyrpH4dPE5eaV9I5Ducs/rEOtVsiPeNolMW5bol0i6NpFuf6JNLqHdIBZWwdnkuTzdFhlHezXyEdNsfIMjbjZ+e9OYwH90yuK8R4cxykjM3v+brG4TepDGbP2u+yYjagbE6XGLPNcfAyNo85OMXhMREXBtOwicNgFnaqZ+IRR/UUfJVOxiAOyriubj7VcVDGLYqmVB0HjJXGwdq4XcWs6t4EMyjj15cP1//B+88/c47kJh8/Jb859ub396+Zj/dXaRn/beKSUSWJffi9fR7mgSYuv9aokngVmyN9bbwmixcVJ5K1PNJ/IO1fRtD3vEPWDCdfVkJP4frms68yuZsjcW3kvLjLVkjKJGe+CZZ5zoovMZES48haG/lnq6aP+HlO2xxVr+OR+yMrjpS1UXuGCh49eKpzNofDa9fhGJ4oJQ6DX6OMFTnbIZvD5yXrcySvFx9H/NpwOx/ZxxM24SGbAxHax+G2NhbPo7pX+zgQJzgO/p+SI2bOvTeH8/Z2PrYb9Y4DoYgDUuM4/Pe2/xFeFxkHP41mCph2482BaMQBiTggEQck4oBEHJCIAxJxQCIOSI3j8P87Vf8jvK5xHIhGHJAi44j/jBHnvZ19bAHTZnNAIg5I7ePwvLJ4HtW92seBOMFxpHzundvLtOB4YuY8ZHP49OFzJK83JA5EmBOHw0vW4RieKD6OxM/qrj03ZY8eNuE5m2OpOkPDdsaSEkfujSDyz1NlGZGznbY5lsyzNXJnLFlxpN9iOeeczb59wuQPxl9nLugPVgcvjC3xslJ0f/aIs2hRRvw8J2+O7YkrxCKLLOl3ajL40/ve93hbUtbwITbHP/aZbnZ3yHSHuMfbNGPv8XYq+8l0iMTpzXwTDE9RFAfL4zG5c6vbHPRxr/SJlV5W6ON2FbPiZw5I1XGwPG5RNKXqOE708T918zGI40QfWulkPOI40cdLqmdiE8epfhZeDKbhFMfJYiIWPObg91vZNZfD/nLOI4vFbHNsTjPKY/asXeM42U0qnN/z9busnDvIJcYvi8V4c2yus3sO42fnvTm2kSvEOIulw+bY7Kd5hw7Ppcnm2AaskA5ZLN3iWJom0ieLpWccS6NEumWxdI5j2XM3rKRnE1v/ODafSpo3sQ2KY6uqZEoT28Q4tvOzFRTKuCDOjY7j3OVZfCCX0SlcOkwclw52ph/Q6h1S5CIOSMQBiTggEQck4oBEHJCIAxJxQCIOSMQBiTggEQck4oBEHJCIAxJxQCIOSMQBiTggEQck4oBEHJCIAxJxQCIOSMQBiTggEQck4oBEHJCIA9IfS04YvmZ6lqQAAAAASUVORK5CYII=">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAABa0lEQVR4nO2ZvQ7CMAyEW8QEA6/EyCOzwSPBACsMlaqqlZo7+1K3lW9EiX1fnN/S/l6PZss6RBvwKgGilQDRSoBoJUC0EiBaCRCtoz7k5Vpo8H4Ks+kAir6nLRUkbgDc90xfB4lvDXjci+JYK6CyPgrIl8JUAbl7R2QeoJ57U3wSoLZ7PguzBpi43/t59Mvp9uFyYeuhRT+rwO6n1ofiMAAGbAqJ3CMN2LzKuxBojmMoCQDAhp+yRTQuZddUwDCoqjps/jpdAgDmj3ks0Y6zHnZfgdUrAaKVAOz1RtFxqN1XALvTGsaS6DLrQVYBikEyeToppxBoS+i+gQCYLwVFc7T7Unb9p8XOovdJCUv/pFRK9qTEYomFZWQW8ZIMcC5yF1qGgcnCb6O1Gcj4pnOgHgMf2bqNdpmEW5N1UHwnsaoUjjjug6zPbajGKv5i6oWTrPRPvl7LHnm7f9CsXgkQrQSIVgJEKwGitXmAP2PmbEVJ5W0HAAAAAElFTkSuQmCC">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>Cookbook – Co uvařit?</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +25,10 @@
   --green:#2E844A; --green-ink:#21663A; --green-soft:#E3F3E6;
   --warn:#A3470A; --warn-soft:#FDEBDB;
   --c-b:#D2462F; --c-s:#D99A1E; --c-t:#6E58B8;
-  --ging:color-mix(in srgb, var(--accent) 26%, transparent);
+  --ging:rgba(245,183,10,.26);
+  --header-bg:rgba(255,255,255,.92);
+  --accent-shadow:#927012; --accent-hover:#DBA40C; --accent-line:#EDCB6D; --accent-ring:rgba(245,183,10,.22);
+  --selected-bg:#FFF7DC; --check-line:rgba(98,98,107,.6); --placeholder:#8E8E96; --hover-tint:rgba(24,24,27,.08);
   --shadow:0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(0,0,0,.06);
   --f-display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
   --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
@@ -40,16 +51,15 @@ button{font:inherit}
 svg{flex:none}
 
 /* ---------- header & navigation ---------- */
-.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:saturate(1.2) blur(10px);-webkit-backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid var(--line)}
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--header-bg);backdrop-filter:saturate(1.2) blur(10px);-webkit-backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid var(--line)}
 .topbar-in{display:flex;align-items:center;gap:16px;min-height:62px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--fg)}
 .brand-egg{width:36px;height:31px;border-radius:58% 42% 55% 45% / 50% 60% 40% 50%;background:var(--surface);border:1.5px solid var(--line);display:grid;place-items:center;box-shadow:var(--shadow)}
-.brand-egg::after{content:"";width:14px;height:14px;border-radius:50%;background:var(--accent);box-shadow:inset -2px -2px 0 color-mix(in srgb,var(--accent) 70%,var(--fg))}
+.brand-egg::after{content:"";width:14px;height:14px;border-radius:50%;background:var(--accent);box-shadow:inset -2px -2px 0 #B3870F}
 .brand b{display:block;font-family:var(--f-display);font-size:21px;font-weight:800;line-height:1;letter-spacing:-.02em}
 .brand small{display:block;font-size:12.5px;color:var(--muted);font-weight:600;line-height:1.3}
 .topnav{display:none;gap:4px;margin-left:12px}
 .topnav a{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:0 14px;border-radius:999px;color:var(--muted);font-weight:700;text-decoration:none}
-.topnav a:hover{color:var(--fg);background:var(--surface-2)}
 .topnav a[aria-current="page"]{color:var(--fg);background:var(--accent-soft)}
 .topnav svg{width:19px;height:19px}
 .soon-btn{margin-left:auto;display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 6px 0 14px;border-radius:999px;border:1.5px dashed var(--line);background:transparent;color:var(--muted);font-weight:600;font-size:14px;cursor:not-allowed}
@@ -69,13 +79,10 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .lede{color:var(--muted);font-size:17px;max-width:62ch}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border-radius:999px;border:1.5px solid transparent;font-weight:700;font-size:16px;cursor:pointer;text-decoration:none;transition:transform .12s ease,background-color .15s ease,border-color .15s ease}
 .btn svg{width:20px;height:20px}
-.btn-primary{background:var(--accent);color:var(--accent-ink);box-shadow:0 2px 0 color-mix(in srgb,var(--accent) 55%,var(--fg))}
-.btn-primary:hover{background:color-mix(in srgb,var(--accent) 88%,var(--fg))}
+.btn-primary{background:var(--accent);color:var(--accent-ink);box-shadow:0 2px 0 var(--accent-shadow)}
 .btn-primary:active{transform:translateY(1px);box-shadow:none}
 .btn-secondary{background:var(--surface);color:var(--fg);border-color:var(--line)}
-.btn-secondary:hover{border-color:color-mix(in srgb,var(--accent) 60%,var(--line))}
 .btn-ghost{background:transparent;color:var(--accent-text);padding:0 10px}
-.btn-ghost:hover{background:var(--surface-2)}
 .btn-lg{min-height:56px;font-size:17px;padding:0 26px}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;min-width:0}
 @media (min-width:760px){.panel{padding:24px}}
@@ -84,7 +91,7 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .p-add h2{margin-bottom:6px}
 .sub{color:var(--muted);font-size:14.5px}
 .gingham{background-color:var(--surface);background-image:linear-gradient(90deg,var(--ging) 50%,transparent 0),linear-gradient(var(--ging) 50%,transparent 0);background-size:26px 26px}
-.plate{width:104px;height:104px;border-radius:50%;background:var(--surface);display:grid;place-items:center;font-size:54px;line-height:1;box-shadow:0 0 0 9px color-mix(in srgb,var(--surface) 55%,transparent),var(--shadow)}
+.plate{width:104px;height:104px;border-radius:50%;background:var(--surface);display:grid;place-items:center;font-size:54px;line-height:1;box-shadow:0 0 0 9px rgba(255,255,255,.55),var(--shadow)}
 .plate.big{width:132px;height:132px;font-size:70px}
 .meta{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;margin:0;padding:0;color:var(--muted);font-size:14.5px;font-weight:600}
 .meta li{display:inline-flex;align-items:center;gap:6px}
@@ -98,7 +105,7 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .seg span{display:grid;place-items:center;min-width:46px;min-height:42px;padding:0 14px;border-radius:999px;font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
 .seg input:checked + span{background:var(--surface);color:var(--fg);box-shadow:0 1px 3px rgba(0,0,0,.14)}
 .seg input:focus-visible + span{outline:3px solid var(--focus);outline-offset:1px}
-.check{appearance:none;-webkit-appearance:none;flex:none;width:26px;height:26px;margin:0;border-radius:8px;border:2px solid color-mix(in srgb,var(--muted) 65%,transparent);background:var(--surface);cursor:pointer;transition:background-color .12s,border-color .12s}
+.check{appearance:none;-webkit-appearance:none;flex:none;width:26px;height:26px;margin:0;border-radius:8px;border:2px solid var(--check-line);background:var(--surface);cursor:pointer;transition:background-color .12s,border-color .12s}
 .check:checked{background:var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2318181B' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/17px no-repeat;border-color:var(--accent)}
 .badge{display:inline-block;font-size:11.5px;font-weight:800;padding:2px 8px;border-radius:999px;white-space:nowrap;vertical-align:1px}
 .badge.lednice{background:var(--green-soft);color:var(--green-ink)}
@@ -122,30 +129,28 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .field-label{font-weight:800;font-size:15px}
 .sugg-wrap{position:relative}
 .chipbox{display:flex;flex-wrap:wrap;gap:8px;align-items:center;min-height:62px;padding:10px;border:2px solid var(--line);border-radius:18px;background:var(--bg);cursor:text;transition:border-color .15s,box-shadow .15s}
-.chipbox:focus-within{border-color:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 22%,transparent)}
+.chipbox:focus-within{border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-ring)}
 .chips{display:contents;list-style:none}
 .chip{display:inline-flex;align-items:center;gap:2px;min-height:38px;padding:3px 3px 3px 13px;border-radius:999px;background:var(--accent-soft);color:var(--fg);font-weight:700;max-width:100%}
 .chip > span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .chip small{font-weight:600;color:var(--muted);margin-left:4px;white-space:nowrap}
-.chip.unknown{background:transparent;border:1.5px dashed color-mix(in srgb,var(--muted) 55%,transparent);color:var(--muted)}
+.chip.unknown{background:transparent;border:1.5px dashed var(--check-line);color:var(--muted)}
 .chip button{width:32px;height:32px;border:0;border-radius:50%;background:transparent;color:inherit;display:grid;place-items:center;cursor:pointer}
-.chip button:hover{background:color-mix(in srgb,var(--fg) 10%,transparent)}
 .chip button svg{width:16px;height:16px}
 .chip.flash{animation:flash .7s ease}
 @keyframes flash{0%,100%{transform:none}30%{transform:scale(1.08)}60%{transform:scale(.97)}}
 .chip-input{flex:1 1 150px;min-width:0;min-height:38px;padding:4px 6px;border:0;outline:0;background:transparent;color:var(--fg);font:inherit;font-size:17px}
-.chip-input::placeholder{color:color-mix(in srgb,var(--muted) 80%,transparent)}
+.chip-input::placeholder{color:var(--placeholder)}
 .sugg{position:absolute;left:0;right:0;top:calc(100% + 6px);z-index:15;margin:0;padding:6px;list-style:none;background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}
 .sugg li{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:46px;padding:8px 12px;border-radius:11px;cursor:pointer;font-weight:600}
 .sugg li small{color:var(--muted);font-weight:500;font-size:13.5px;text-align:right}
-.sugg li[aria-selected="true"],.sugg li:hover{background:var(--accent-soft)}
+.sugg li[aria-selected="true"]{background:var(--accent-soft)}
 .hint{font-size:14px;color:var(--muted)}
 .quick{display:flex;flex-direction:column;gap:8px}
 .quick-label{font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
 .quick-list{display:flex;flex-wrap:wrap;gap:8px}
 .qbtn{display:inline-flex;align-items:center;gap:7px;min-height:46px;padding:0 15px 0 12px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--fg);font-weight:700;cursor:pointer;transition:background-color .12s,border-color .12s}
 .qbtn .em{font-size:19px;line-height:1}
-.qbtn:hover{border-color:color-mix(in srgb,var(--accent) 60%,var(--line))}
 .qbtn[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent)}
 .qbtn .tick{display:none;width:16px;height:16px}
 .qbtn[aria-pressed="true"] .tick{display:block}
@@ -157,14 +162,12 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .search-sum .mini.diet{background:var(--green-soft);color:var(--green-ink)}
 .diet-fit{font-size:14.5px;color:var(--green-ink);font-weight:700}
 .add-row.off{opacity:.55;cursor:not-allowed}
-.add-row.off:hover{border-color:var(--line)}
 .add-row.off .check{cursor:not-allowed}
 .actions{display:flex;flex-wrap:wrap;gap:10px}
 .actions .btn{flex:1 1 190px}
 .inline-msg{font-size:14.5px;font-weight:600;color:var(--warn);min-height:0}
 .inline-msg:empty{display:none}
 .calc-teaser{display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:var(--r-lg);border:1.5px solid var(--line);background:var(--surface);color:var(--fg);text-decoration:none;transition:border-color .15s}
-.calc-teaser:hover{border-color:var(--accent)}
 .ct-ico{width:46px;height:46px;border-radius:14px;background:var(--accent-soft);color:var(--accent-text);display:grid;place-items:center}
 .ct-txt{flex:1;min-width:0}
 .ct-txt b{display:block;font-size:16.5px}
@@ -180,12 +183,10 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .search-sum .mini.unknown{background:transparent;border:1.5px dashed var(--line);color:var(--muted)}
 .cards{display:flex;flex-direction:column;gap:16px}
 .rcard{position:relative;display:grid;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow);transition:transform .15s ease,border-color .15s}
-.rcard:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--accent) 50%,var(--line))}
-.rcard:has(a:focus-visible){outline:3px solid var(--focus);outline-offset:3px}
+.rcard:focus-within{outline:3px solid var(--focus);outline-offset:3px}
 .rcard-art{display:grid;place-items:center;min-height:168px;border-bottom:1px solid var(--line)}
 .rcard-art.photo{position:relative;aspect-ratio:16/10;min-height:0;overflow:hidden;background:var(--surface-2)}
 .rcard-art.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}
-.rcard:hover .rcard-art.photo img{transform:scale(1.03)}
 @media (min-width:640px){.rcard{grid-template-columns:280px minmax(0,1fr)}.rcard-art{border-bottom:0;border-right:1px solid var(--line)}.rcard-art.photo{aspect-ratio:auto;min-height:230px}}
 .rcard-body{display:flex;flex-direction:column;gap:12px;padding:18px 20px 20px;min-width:0}
 .rcard-top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
@@ -225,7 +226,6 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .ph-note{position:absolute;left:12px;top:12px;font-size:12.5px;font-weight:700;padding:4px 10px;border-radius:999px;background:var(--surface);color:var(--muted);box-shadow:var(--shadow)}
 .photo-actions{position:absolute;right:12px;bottom:12px;display:flex;gap:8px}
 .photo-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;border:0;background:var(--surface);color:var(--fg);font-weight:700;font-size:15px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.18)}
-.photo-btn:hover{background:var(--surface-2)}
 .photo-btn.icon{width:44px;padding:0;justify-content:center}
 .photo-btn svg{width:19px;height:19px}
 #foto-input:focus-visible + .photo-btn{outline:3px solid var(--focus);outline-offset:2px}
@@ -252,8 +252,7 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .soon-inline{margin-top:12px;display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 6px 0 14px;border-radius:999px;border:1.5px dashed var(--line);background:transparent;color:var(--muted);font-weight:600;font-size:14px;cursor:not-allowed}
 .add-list{display:flex;flex-direction:column;gap:8px;margin-top:12px}
 .add-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:4px 12px;min-height:58px;padding:12px 14px;border:1.5px solid var(--line);border-radius:16px;cursor:pointer;transition:background-color .12s,border-color .12s}
-.add-row:hover{border-color:color-mix(in srgb,var(--accent) 55%,var(--line))}
-.add-row:has(input:checked){border-color:var(--accent);background:color-mix(in srgb,var(--accent-soft) 55%,var(--surface))}
+.add-row.is-on{border-color:var(--accent);background:var(--selected-bg)}
 .add-main{min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px}
 .add-name{font-weight:700}
 .add-amt{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums}
@@ -265,11 +264,10 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .progress .meter{width:96px}
 .steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
 .step{display:grid;grid-template-columns:auto 26px minmax(0,1fr);align-items:start;gap:12px;padding:12px 10px;border-radius:14px;cursor:pointer}
-.step:hover{background:var(--surface-2)}
 .step-n{font-family:var(--f-display);font-weight:800;font-size:21px;line-height:1.15;color:var(--accent-text);text-align:center}
 .step-t{padding-top:1px}
-.step:has(input:checked) .step-t{text-decoration:line-through;text-decoration-color:color-mix(in srgb,var(--muted) 70%,transparent);color:var(--muted)}
-.step:has(input:checked) .step-n{color:var(--muted)}
+.step.is-on .step-t{text-decoration:line-through;color:var(--muted)}
+.step.is-on .step-n{color:var(--muted)}
 .tip{margin-top:14px;padding:14px 16px;border-radius:16px;background:var(--accent-soft);display:flex;gap:10px;align-items:flex-start}
 .tip b{font-family:var(--f-display);font-weight:800}
 .kcal-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
@@ -292,7 +290,7 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .mtab td + td,.mtab th + th{padding-left:12px}
 .dot{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:8px;vertical-align:0}
 .dot.b{background:var(--c-b)}.dot.s{background:var(--c-s)}.dot.t{background:var(--c-t)}
-.goal{border-color:color-mix(in srgb,var(--accent) 65%,var(--line));border-width:1.5px}
+.goal{border-color:#EFC757;border-width:1.5px}
 .goal h2{margin-bottom:10px}
 .goal-sum{font-size:14.5px;color:var(--muted);margin-bottom:14px}
 .goal-sum b{color:var(--fg)}
@@ -324,7 +322,7 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .inp{display:flex;align-items:center;gap:6px;min-height:54px;padding:0 12px;border:2px solid var(--line);border-radius:14px;background:var(--bg);transition:border-color .15s}
 .inp:focus-within{border-color:var(--accent)}
 .inp input{flex:1;min-width:0;width:100%;border:0;outline:0;background:transparent;color:var(--fg);font:inherit;font-size:19px;font-weight:700;font-variant-numeric:tabular-nums}
-.inp input::placeholder{color:color-mix(in srgb,var(--muted) 60%,transparent);font-weight:500}
+.inp input::placeholder{color:var(--placeholder);font-weight:500}
 .inp span{color:var(--muted);font-size:14px;font-weight:600}
 .field.err .inp{border-color:var(--warn)}
 .err-msg{margin-top:5px;font-size:13px;color:var(--warn);font-weight:600}
@@ -332,13 +330,12 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .opts{display:grid;gap:8px}
 .opts-2{grid-template-columns:repeat(2,minmax(0,1fr))}
 .opt{position:relative;display:flex;align-items:flex-start;gap:12px;min-height:56px;padding:12px 14px;border:1.5px solid var(--line);border-radius:16px;cursor:pointer;transition:background-color .12s,border-color .12s}
-.opt:hover{border-color:color-mix(in srgb,var(--accent) 55%,var(--line))}
 .opt input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
-.opt .radio{flex:none;width:21px;height:21px;margin-top:1px;border-radius:50%;border:2px solid color-mix(in srgb,var(--muted) 70%,transparent);display:grid;place-items:center}
+.opt .radio{flex:none;width:21px;height:21px;margin-top:1px;border-radius:50%;border:2px solid var(--check-line);display:grid;place-items:center}
 .opt input:checked + .radio{border-color:var(--accent-text)}
 .opt input:checked + .radio::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--accent-text)}
 .opt input:focus-visible + .radio{outline:3px solid var(--focus);outline-offset:3px}
-.opt:has(input:checked){border-color:var(--accent);background:color-mix(in srgb,var(--accent-soft) 55%,var(--surface))}
+.opt.is-on{border-color:var(--accent);background:var(--selected-bg)}
 .opt-txt{flex:1;min-width:0}
 .opt-txt b{display:block}
 .opt-txt small{display:block;color:var(--muted);font-size:13.5px;line-height:1.4}
@@ -357,7 +354,7 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .target b{font-family:var(--f-display);font-size:46px;line-height:1;font-variant-numeric:tabular-nums}
 .target b small{font-family:var(--f-body);font-size:18px;font-weight:700;margin-left:4px}
 .target > small{font-size:14px;color:var(--fg)}
-.warn{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--warn-soft);border:1px solid color-mix(in srgb,var(--warn) 35%,transparent);font-size:14.5px}
+.warn{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--warn-soft);border:1px solid rgba(163,71,10,.35);font-size:14.5px}
 .warn svg{color:var(--warn);width:20px;height:20px;margin-top:1px}
 .warn b{color:var(--warn)}
 .donut-wrap{display:flex;flex-wrap:wrap;align-items:center;gap:18px}
@@ -372,7 +369,7 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .meals td:first-child{text-align:left;font-weight:700}
 .meals td.pct{color:var(--muted)}
 .meals td + td{padding-left:12px}
-.cta{display:flex;flex-direction:column;gap:10px;padding:16px;border-radius:18px;border:1.5px dashed color-mix(in srgb,var(--accent) 70%,var(--line))}
+.cta{display:flex;flex-direction:column;gap:10px;padding:16px;border-radius:18px;border:1.5px dashed #F0C54C}
 .cta p{font-size:14.5px;color:var(--muted)}
 .cta p b{color:var(--fg)}
 .cta .btn{align-self:stretch}
@@ -380,6 +377,49 @@ main{padding-block:22px calc(104px + env(safe-area-inset-bottom,0px))}
 .out-empty .btn{align-self:flex-start}
 
 @media (max-width:380px){.num-grid{gap:8px}.inp{padding:0 9px}.opts-2{grid-template-columns:1fr}}
+
+/* ---------- dotyk a mobily ---------- */
+@media (hover:hover){
+  .topnav a:hover{color:var(--fg);background:var(--surface-2)}
+  .btn-primary:hover{background:var(--accent-hover)}
+  .btn-secondary:hover{border-color:var(--accent-line)}
+  .btn-ghost:hover{background:var(--surface-2)}
+  .chip button:hover{background:var(--hover-tint)}
+  .sugg li:hover{background:var(--accent-soft)}
+  .qbtn:hover{border-color:var(--accent-line)}
+  .add-row.off:hover{border-color:var(--line)}
+  .calc-teaser:hover{border-color:var(--accent)}
+  .rcard:hover{transform:translateY(-2px);border-color:var(--accent-line)}
+  .rcard:hover .rcard-art.photo img{transform:scale(1.03)}
+  .photo-btn:hover{background:var(--surface-2)}
+  .add-row:hover{border-color:var(--accent-line)}
+  .step:hover{background:var(--surface-2)}
+  .opt:hover{border-color:var(--accent-line)}
+}
+a,button,label,input,summary{-webkit-tap-highlight-color:transparent}
+a,button,label,input[type=checkbox],input[type=radio]{touch-action:manipulation}
+.btn:active,.qbtn:active,.add-row:active,.opt:active,.tab:active,.photo-btn:active,.calc-teaser:active{transform:scale(.98)}
+.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}
+@media (max-width:759px) and (pointer:coarse){body.typing .tabbar{display:none}}
+@media (max-width:420px){.soon-btn{display:none}}
+.calc-jump{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;border:1.5px solid var(--accent);background:var(--accent-soft);color:var(--fg);font-weight:700;font-size:15px;cursor:pointer}
+.calc-jump svg{width:18px;height:18px;transform:rotate(90deg)}
+.calc-out{scroll-margin-top:80px}
+@media (min-width:960px){.calc-jump{display:none}}
+@media (max-width:380px){
+  .panel{padding:16px}
+  .fridge{padding:0 14px 16px}.fridge::before{margin-inline:-14px}
+  .inp{padding:0 8px;min-height:50px}.inp input{font-size:17px}.inp span{font-size:12.5px}
+  .field label{font-size:14px}
+  .mtab td + td,.mtab th + th{padding-left:8px}
+  .kcal-tile b{font-size:32px}
+  .qbtn{padding:0 12px 0 10px}
+}
+@supports not (aspect-ratio:1){
+  .d-photo{height:0;padding-top:75%}
+  .rcard-art.photo{height:0;padding-top:62.5%}
+  .donut{height:136px}.donut > div{height:62%}
+}
 @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -482,7 +522,7 @@ const RECEPTY = [
       { surovina:'pazitka', role:'volitelna', nazev:'pažitka', poznamka:'na ozdobu' },
     ],
     pridavky: [
-      { id:'syr',    surovina:'syr',    nazev:'Sýr eidam 30 %',  kratky:'sýr',     bez:'bez sýra',    mnozstvi:20, jednotka:'g', nutrice:{ kcal:52,  b:5.6, s:0,   t:3.2 }, rusiStitky:[], maso:false },
+      { id:'syr',    surovina:'syr',    nazev:'Sýr eidam 30 %',  kratky:'sýr',     bez:'bez sýra',    mnozstvi:20, jednotka:'g', nutrice:{ kcal:52,  b:5.6, s:0,   t:3.2 }, rusiStitky:[], maso:false },
       { id:'sunka',  surovina:'sunka',  nazev:'Šunka',           kratky:'šunka',   bez:'bez šunky',   mnozstvi:30, jednotka:'g', nutrice:{ kcal:33,  b:5.4, s:0.3, t:1   }, rusiStitky:['vegetarianske'], maso:true },
       { id:'spenat', surovina:'spenat', nazev:'Špenát',          kratky:'špenát',  bez:'bez špenátu', mnozstvi:50, jednotka:'g', nutrice:{ kcal:12,  b:1.4, s:1.8, t:0.2 }, rusiStitky:[], maso:false },
       { id:'cibulka',surovina:'cibule', nazev:'Cibulka',         kratky:'cibulka', bez:'bez cibulky', mnozstvi:30, jednotka:'g', nutrice:{ kcal:12,  b:0.3, s:2.8, t:0   }, rusiStitky:[], maso:false },
@@ -517,7 +557,7 @@ const RECEPTY = [
 
 const STITKY = { 'vegetarianske':'Vegetariánské', 'veganske':'Veganské', 'bezlepkove':'Bezlepkové', 'low-carb':'Low-carb', 'keto':'Keto', 'bohate-na-bilkoviny':'Bohaté na bílkoviny', 'nizkokaloricke':'Nízkokalorické' };
 // Štítky, které se počítají z nutričních hodnot porce (ne z dat receptu)
-const VYPOCTENE = { 'nizkokaloricke': { test: n => n.kcal <= 400, duvod: 'porce by měla přes 400 kcal' } };
+const VYPOCTENE = { 'nizkokaloricke': { test: n => n.kcal <= 400, duvod: 'porce by měla přes 400 kcal' } };
 // Diety, které jde vybrat v Ledničce (id diety = id štítku)
 const DIETY = ['vegetarianske', 'veganske', 'bezlepkove', 'bohate-na-bilkoviny', 'nizkokaloricke', 'low-carb', 'keto'];
 const NEVHODNE = { 'vegany':'Nevhodné pro vegany' };
@@ -539,10 +579,10 @@ const CILE = [
   { id:'svaly',    nazev:'Nabrat svaly', uprava:250 },
 ];
 const STYLY = [
-  { id:'vyvazena',         nazev:'Vyvážená',         popis:'Bílkoviny 25 % · sacharidy 45 % · tuky 30 %' },
-  { id:'vysokoproteinova', nazev:'Vysokoproteinová', popis:'Bílkoviny 2 g na kg váhy · tuky 25 % · zbytek sacharidy' },
-  { id:'low-carb',         nazev:'Low-carb',         popis:'Bílkoviny 30 % · sacharidy 20 % · tuky 50 %' },
-  { id:'keto',             nazev:'Keto',             popis:'Bílkoviny 25 % · sacharidy 5 % · tuky 70 %' },
+  { id:'vyvazena',         nazev:'Vyvážená',         popis:'Bílkoviny 25 % · sacharidy 45 % · tuky 30 %' },
+  { id:'vysokoproteinova', nazev:'Vysokoproteinová', popis:'Bílkoviny 2 g na kg váhy · tuky 25 % · zbytek sacharidy' },
+  { id:'low-carb',         nazev:'Low-carb',         popis:'Bílkoviny 30 % · sacharidy 20 % · tuky 50 %' },
+  { id:'keto',             nazev:'Keto',             popis:'Bílkoviny 25 % · sacharidy 5 % · tuky 70 %' },
   { id:'vegetarianska',    nazev:'Vegetariánská',    popis:'Jako vyvážená, bez přídavků s masem' },
 ];
 const ROZPAD = {
@@ -868,7 +908,15 @@ function render() {
 }
 function rerender() {
   const id = document.activeElement && document.activeElement.id;
-  render();
+  const old = state.view === 'recept' ? $('#app .detail') : null;
+  if (old && state.detail && old.dataset.recept === state.detail.id) {
+    // jen části, které se mění: fotka zůstane, nebliká
+    const tpl = document.createElement('template');
+    tpl.innerHTML = viewRecept();
+    ['#d-tags', '#meta-kcal', '.d-grid'].forEach(sel => { const a = old.querySelector(sel), b = tpl.content.querySelector(sel); if (a && b) a.replaceWith(b); });
+  } else {
+    render();
+  }
   if (id) { const el = document.getElementById(id); if (el) el.focus({ preventScroll:true }); }
 }
 
@@ -876,7 +924,7 @@ function rerender() {
 function viewLednice() {
   const p = profil(), v = p && vypocet(p);
   const teaser = v
-    ? `<b>Tvůj denní cíl: ${fmt(v.kcal)} kcal</b><small>${esc(v.cil.nazev)} · ${esc(v.styl.nazev.toLowerCase())} strava. Klepni pro úpravu.</small>`
+    ? `<b>Tvůj denní cíl: ${fmt(v.kcal)} kcal</b><small>${esc(v.cil.nazev)} · ${esc(v.styl.nazev.toLowerCase())} strava. Klepni pro úpravu.</small>`
     : `<b>Kalorická kalkulačka</b><small>Spočítej si denní příjem a uvidíš, jak se recept vejde do jídelníčku.</small>`;
   return `
   <section class="home" aria-labelledby="h-home">
@@ -889,7 +937,7 @@ function viewLednice() {
       <div class="sugg-wrap">
         <div class="chipbox" id="chipbox">
           <ul class="chips" id="chips" aria-label="Suroviny v lednici"></ul>
-          <input id="ing-input" class="chip-input" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="enter"
+          <input id="ing-input" class="chip-input" type="text" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="enter"
             placeholder="např. vejce, máslo, sýr" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sugg" aria-describedby="ing-hint">
         </div>
         <ul id="sugg" class="sugg" role="listbox" aria-label="Návrhy surovin" hidden></ul>
@@ -930,6 +978,7 @@ function renderChips() {
   const q = $('#quick');
   if (q) {
     const ids = new Set(state.lednice.map(i => i.id));
+    if (q.children.length) { q.querySelectorAll('[data-quick]').forEach(b => b.setAttribute('aria-pressed', String(ids.has(b.dataset.quick)))); return; }
     q.innerHTML = RYCHLE.map(([id, em]) => `<button type="button" class="qbtn" data-quick="${id}" aria-pressed="${ids.has(id)}"><span class="em" aria-hidden="true">${em}</span>${esc(nazev(id))}<span class="tick">${ICON.tick}</span></button>`).join('');
   }
 }
@@ -1009,7 +1058,7 @@ function setFindMsg(msg) { state.findMsg = msg; const el = $('#find-msg'); if (e
 /* ---------- 2 · výsledky ---------- */
 function karta(r, m) {
   const tags = stitky(r, new Set()).map(tagHtml).join('') + r.nevhodnePro.map(t => `<li class="tag neutral">${NEVHODNE[t]}</li>`).join('');
-  const ring = m ? `<div class="match${m.procent === 100 ? ' full' : ''}" style="--p:${m.procent}" role="img" aria-label="Shoda ${m.procent} %"><span>${m.procent} %<small>shoda</small></span></div>` : '';
+  const ring = m ? `<div class="match${m.procent === 100 ? ' full' : ''}" style="--p:${m.procent}" role="img" aria-label="Shoda ${m.procent} %"><span>${m.procent} %<small>shoda</small></span></div>` : '';
   let stav;
   if (m) {
     stav = m.chybi.length ? `<p class="missing"><b>Chybí ti:</b> ${esc(m.chybi.join(', '))}</p>` : `<p class="have">Máš všechno, co potřebuješ.</p>`;
@@ -1024,7 +1073,7 @@ function karta(r, m) {
       <div class="rcard-top">
         <div class="rcard-title">
           <h2><a href="#${r.id}" data-open="${r.id}">${esc(r.nazev)}</a></h2>
-          <ul class="meta"><li>${ICON.clock}${r.casMin} min</li><li>${ICON.hat}${cap(r.obtiznost)}</li><li>${ICON.flame}${fmt(r.nutrice.kcal)} kcal / porce</li></ul>
+          <ul class="meta"><li>${ICON.clock}${r.casMin} min</li><li>${ICON.hat}${cap(r.obtiznost)}</li><li>${ICON.flame}${fmt(r.nutrice.kcal)} kcal / porce</li></ul>
         </div>
         ${ring}
       </div>
@@ -1149,18 +1198,18 @@ function blokNutrice(r, d, n1) {
     ? `<div class="kcal-tile"><span>Na 1 porci</span><b id="kcal-porce">${fmt(n1.kcal)}</b><small>kcal</small></div>
        <div class="kcal-tile hl"><span>Celkem · ${p} ${plural(p, PORCE)}</span><b id="kcal-celkem">${fmt(n1.kcal * p)}</b><small>kcal</small></div>`
     : `<div class="kcal-tile hl"><span>Na 1 porci</span><b id="kcal-porce">${fmt(n1.kcal)}</b><small>kcal</small></div>`;
-  const row = (cls, name, g) => `<tr><td><span class="dot ${cls}"></span>${name}</td><td>${nf1.format(g)} g</td>${p > 1 ? `<td>${nf1.format(g * p)} g</td>` : ''}<td class="pct">${pc(cls === 't' ? g * 9 : g * 4)} %</td></tr>`;
+  const row = (cls, name, g) => `<tr><td><span class="dot ${cls}"></span>${name}</td><td>${nf1.format(g)} g</td>${p > 1 ? `<td>${nf1.format(g * p)} g</td>` : ''}<td class="pct">${pc(cls === 't' ? g * 9 : g * 4)} %</td></tr>`;
   return `
     <div class="panel-head"><h2 id="h-nutr">Nutriční hodnoty</h2><span class="sub">orientačně</span></div>
     <div class="kcal-row">${tiles}</div>
-    <p class="kcal-break">Základ ${fmt(r.nutrice.kcal)} kcal${pridano ? ` + přídavky ${fmt(pridano)} kcal` : ', bez přídavků'} na porci</p>
-    <div class="mbar" role="img" aria-label="Podíl energie: bílkoviny ${pc(bK)} %, sacharidy ${pc(sK)} %, tuky ${pc(tK)} %">
+    <p class="kcal-break">Základ ${fmt(r.nutrice.kcal)} kcal${pridano ? ` + přídavky ${fmt(pridano)} kcal` : ', bez přídavků'} na porci</p>
+    <div class="mbar" role="img" aria-label="Podíl energie: bílkoviny ${pc(bK)} %, sacharidy ${pc(sK)} %, tuky ${pc(tK)} %">
       <span class="mb-b" style="width:${bK / sum * 100}%"></span><span class="mb-s" style="width:${sK / sum * 100}%"></span><span class="mb-t" style="width:${tK / sum * 100}%"></span>
     </div>
-    <table class="mtab">
+    <div class="tbl"><table class="mtab">
       <thead><tr><th scope="col"><span class="sr">Živina</span></th><th scope="col">Na porci</th>${p > 1 ? '<th scope="col">Celkem</th>' : ''}<th scope="col">Energie</th></tr></thead>
       <tbody>${row('b', 'Bílkoviny', n1.b)}${row('s', 'Sacharidy', n1.s)}${row('t', 'Tuky', n1.t)}</tbody>
-    </table>`;
+    </table></div>`;
 }
 function blokCil(r, d, n1) {
   const p = profil();
@@ -1188,18 +1237,18 @@ function blokCil(r, d, n1) {
   const jidlo = v.kcal / state.jidla;
   return `
     <h2 id="h-goal">Jak se to hodí k tvému cíli</h2>
-    <p class="goal-sum">Cíl <b>${esc(v.cil.nazev.toLowerCase())}</b> · ${esc(v.styl.nazev.toLowerCase())} strava · <b>${fmt(v.kcal)} kcal</b> denně</p>
+    <p class="goal-sum">Cíl <b>${esc(v.cil.nazev.toLowerCase())}</b> · ${esc(v.styl.nazev.toLowerCase())} strava · <b>${fmt(v.kcal)} kcal</b> denně</p>
     <div class="cover">
-      <div class="cover-row"><span>Energie z 1 porce</span><b>${pk} %</b></div>
+      <div class="cover-row"><span>Energie z 1 porce</span><b>${pk} %</b></div>
       <div class="meter"><span style="width:${Math.min(pk, 100)}%"></span></div>
-      <small>${fmt(n1.kcal)} z ${fmt(v.kcal)} kcal denního cíle</small>
+      <small>${fmt(n1.kcal)} z ${fmt(v.kcal)} kcal denního cíle</small>
     </div>
     <div class="cover">
-      <div class="cover-row"><span>Bílkoviny z 1 porce</span><b>${pb} %</b></div>
+      <div class="cover-row"><span>Bílkoviny z 1 porce</span><b>${pb} %</b></div>
       <div class="meter b"><span style="width:${Math.min(pb, 100)}%"></span></div>
-      <small>${nf1.format(n1.b)} z ${fmt(v.b)} g denně</small>
+      <small>${nf1.format(n1.b)} z ${fmt(v.b)} g denně</small>
     </div>
-    <p class="meal-note">Při ${state.jidla} jídlech denně vychází jedno jídlo průměrně na ${fmt(jidlo)} kcal.</p>
+    <p class="meal-note">Při ${state.jidla} jídlech denně vychází jedno jídlo průměrně na ${fmt(jidlo)} kcal.</p>
     ${reco}
     <a class="btn btn-ghost" href="#kalkulacka" data-nav="kalkulacka">Upravit údaje v kalkulačce</a>`;
 }
@@ -1241,17 +1290,17 @@ function viewRecept() {
     const note = off
       ? `<span class="add-note">Teď nejde přidat, ${esc(off.duvody.join(', '))}.</span>`
       : x.rusiStitky.length ? `<span class="add-note">Ruší štítky: ${x.rusiStitky.map(t => STITKY[t].toLowerCase()).join(', ')}</span>` : '';
-    return `<label class="add-row${off ? ' off' : ''}" for="add-${x.id}">
+    return `<label class="add-row${off ? ' off' : ''}${on ? ' is-on' : ''}" for="add-${x.id}">
       <input class="check" type="checkbox" id="add-${x.id}" data-addon="${x.id}" ${on ? 'checked' : ''}${off ? ' disabled' : ''}>
-      <span class="add-main"><span class="add-name">${esc(x.nazev)}</span><span class="add-amt">${nf1.format(x.mnozstvi * k)} g</span>${zdroj}</span>
-      <span class="add-kcal">+${fmt(x.nutrice.kcal)} kcal</span>
+      <span class="add-main"><span class="add-name">${esc(x.nazev)}</span><span class="add-amt">${nf1.format(x.mnozstvi * k)} g</span>${zdroj}</span>
+      <span class="add-kcal">+${fmt(x.nutrice.kcal)} kcal</span>
       ${note}
     </label>`;
   }).join('');
   const hotovo = d.kroky.size, celkem = r.postup.length;
-  const kroky = r.postup.map((t, i) => `<li><label class="step" for="krok-${i}"><input class="check" type="checkbox" id="krok-${i}" data-krok="${i}" ${d.kroky.has(i) ? 'checked' : ''}><span class="step-n">${i + 1}</span><span class="step-t">${esc(t)}</span></label></li>`).join('');
+  const kroky = r.postup.map((t, i) => `<li><label class="step${d.kroky.has(i) ? ' is-on' : ''}" for="krok-${i}"><input class="check" type="checkbox" id="krok-${i}" data-krok="${i}" ${d.kroky.has(i) ? 'checked' : ''}><span class="step-n">${i + 1}</span><span class="step-t">${esc(t)}</span></label></li>`).join('');
   return `
-  <section class="detail" aria-labelledby="h-detail">
+  <section class="detail" aria-labelledby="h-detail" data-recept="${r.id}">
     <a class="back" href="#${d.from}" data-act="zpet">${ICON.back}${zpet}</a>
     <header class="d-hero">
       ${blokFotky(r)}
@@ -1260,8 +1309,8 @@ function viewRecept() {
         <h1 id="h-detail" tabindex="-1">${esc(r.nazev)}</h1>
         <p class="lede">${esc(r.popis)}</p>
         <ul class="meta">
-          <li>${ICON.clock}${r.casMin} min</li><li>${ICON.hat}${cap(r.obtiznost)}</li>
-          <li>${ICON.flame}<span id="meta-kcal">${fmt(n1.kcal)} kcal / porce</span></li>
+          <li>${ICON.clock}${r.casMin} min</li><li>${ICON.hat}${cap(r.obtiznost)}</li>
+          <li>${ICON.flame}<span id="meta-kcal">${fmt(n1.kcal)} kcal / porce</span></li>
         </ul>
         <ul class="tags" id="d-tags" aria-label="Dietní štítky">${tags}</ul>
       </div>
@@ -1308,23 +1357,24 @@ function viewKalkulacka() {
   const pole = (k, label, unit, ph, mode) => `
     <div class="field" id="f-${k}">
       <label for="in-${k}">${label}</label>
-      <div class="inp"><input id="in-${k}" data-field="${k}" type="text" inputmode="${mode}" autocomplete="off" value="${esc(f[k])}" placeholder="${ph}" aria-describedby="err-${k}"><span>${unit}</span></div>
+      <div class="inp"><input id="in-${k}" data-field="${k}" type="text" inputmode="${mode}" autocomplete="off" autocorrect="off" enterkeyhint="next" value="${esc(f[k])}" placeholder="${ph}" aria-describedby="err-${k}"><span>${unit}</span></div>
       <p class="err-msg" id="err-${k}"></p>
     </div>`;
   const opt = (name, id, title, desc, right) => `
-    <label class="opt" for="r-${name}-${id}">
+    <label class="opt${f[name] === id ? ' is-on' : ''}" for="r-${name}-${id}">
       <input type="radio" name="${name}" id="r-${name}-${id}" value="${id}" ${f[name] === id ? 'checked' : ''}>
       <span class="radio" aria-hidden="true"></span>
       <span class="opt-txt"><b>${title}</b>${desc ? `<small>${desc}</small>` : ''}</span>
       ${right ? `<span class="opt-k">${right}</span>` : ''}
     </label>`;
-  const upr = u => u === 0 ? '±0 kcal' : (u > 0 ? '+' : '−') + Math.abs(u) + ' kcal';
+  const upr = u => u === 0 ? '±0 kcal' : (u > 0 ? '+' : '−') + Math.abs(u) + ' kcal';
   return `
   <section class="calc" aria-labelledby="h-calc">
     <header class="page-head">
       <p class="eyebrow">Kalkulačka</p>
       <h1 id="h-calc" tabindex="-1">Kolik toho denně sníst</h1>
       <p class="lede">Podle vzorce Mifflin–St Jeor spočítáme bazální metabolismus, denní výdej a cíl podle toho, čeho chceš dosáhnout.</p>
+      <button class="calc-jump" id="calc-jump" type="button" data-act="na-vysledek" hidden></button>
     </header>
     <div class="calc-grid">
       <form class="panel calc-form" id="calc-form" novalidate>
@@ -1363,6 +1413,12 @@ function renderVysledky() {
   });
   const out = $('#calc-out');
   if (!out) return;
+  const jump = $('#calc-jump');
+  if (jump) {
+    const pj = profil();
+    jump.hidden = !pj;
+    if (pj) jump.innerHTML = `Denní cíl ${fmt(vypocet(pj).kcal)} kcal · zobrazit ${ICON.arrow}`;
+  }
   const disclaimer = `<p class="disclaimer">${ICON.info}<span>Výpočet je orientační a nenahrazuje radu lékaře nebo nutričního terapeuta.</span></p>`;
   const p = profil();
   if (!p) {
@@ -1384,18 +1440,18 @@ function renderVysledky() {
   const bp = bK / sum * 100, sp = sK / sum * 100;
   const pc = x => Math.round(x / sum * 100);
   const upr = v.cil.uprava;
-  const proc = upr === 0 ? 'TDEE beze změny, cíl udržet váhu' : `TDEE ${upr > 0 ? '+' : '−'} ${Math.abs(upr)} kcal, cíl ${v.cil.nazev.toLowerCase()}`;
+  const proc = upr === 0 ? 'TDEE beze změny, cíl udržet váhu' : `TDEE ${upr > 0 ? '+' : '−'} ${Math.abs(upr)} kcal, cíl ${v.cil.nazev.toLowerCase()}`;
   let warn = '';
   if (v.orez) {
     const co = v.duvod === 'bmr'
-      ? `tvůj bazální metabolismus (${fmt(v.bmr)} kcal)`
-      : `${fmt(v.podlaha)} kcal, bezpečné minimum pro ${p.pohlavi === 'muz' ? 'muže' : 'ženy'}`;
-    warn = `<div class="warn" role="note">${ICON.alert}<p><b>Cíl jsme zvedli na bezpečné minimum.</b> Podle zadání by ti vyšlo ${fmt(v.surovy)} kcal denně. To je méně než ${co}, a tak nízký příjem může tělu škodit. Počítáme proto s ${fmt(v.kcal)} kcal.${p.cil === 'zhubnout' ? ' Hubnout budeš pomaleji, ale bezpečně.' : ''}</p></div>`;
+      ? `tvůj bazální metabolismus (${fmt(v.bmr)} kcal)`
+      : `${fmt(v.podlaha)} kcal, bezpečné minimum pro ${p.pohlavi === 'muz' ? 'muže' : 'ženy'}`;
+    warn = `<div class="warn" role="note">${ICON.alert}<p><b>Cíl jsme zvedli na bezpečné minimum.</b> Podle zadání by ti vyšlo ${fmt(v.surovy)} kcal denně. To je méně než ${co}, a tak nízký příjem může tělu škodit. Počítáme proto s ${fmt(v.kcal)} kcal.${p.cil === 'zhubnout' ? ' Hubnout budeš pomaleji, ale bezpečně.' : ''}</p></div>`;
   }
   const r = RECEPTY[0];
   const dop = doporuceni(r, p);
   const dopT = dopText(r, dop) || 'základní verze';
-  const meals = ROZPAD[state.jidla].map(([n, s]) => `<tr><td>${n}</td><td class="pct">${Math.round(s * 100)} %</td><td>${fmt(v.kcal * s)} kcal</td><td>${fmt(v.b * s)} g B</td></tr>`).join('');
+  const meals = ROZPAD[state.jidla].map(([n, s]) => `<tr><td>${n}</td><td class="pct">${Math.round(s * 100)} %</td><td>${fmt(v.kcal * s)} kcal</td><td>${fmt(v.b * s)} g B</td></tr>`).join('');
   out.innerHTML = `<div class="panel out">
     <h2>Tvůj denní příjem</h2>
     <div class="stats">
@@ -1406,13 +1462,13 @@ function renderVysledky() {
     ${warn}
     <h3>Makroživiny · ${esc(v.styl.nazev.toLowerCase())}</h3>
     <div class="donut-wrap">
-      <div class="donut" role="img" aria-label="Bílkoviny ${pc(bK)} %, sacharidy ${pc(sK)} %, tuky ${pc(tK)} %" style="background:conic-gradient(var(--c-b) 0 ${bp}%, var(--c-s) ${bp}% ${bp + sp}%, var(--c-t) ${bp + sp}% 100%)"><div><b>${fmt(v.kcal)}</b><small>kcal</small></div></div>
+      <div class="donut" role="img" aria-label="Bílkoviny ${pc(bK)} %, sacharidy ${pc(sK)} %, tuky ${pc(tK)} %" style="background:conic-gradient(var(--c-b) 0 ${bp}%, var(--c-s) ${bp}% ${bp + sp}%, var(--c-t) ${bp + sp}% 100%)"><div><b>${fmt(v.kcal)}</b><small>kcal</small></div></div>
       <table class="mtab">
         <thead><tr><th scope="col"><span class="sr">Živina</span></th><th scope="col">Denně</th><th scope="col">Energie</th></tr></thead>
         <tbody>
-          <tr><td><span class="dot b"></span>Bílkoviny</td><td>${fmt(v.b)} g</td><td class="pct">${pc(bK)} %</td></tr>
-          <tr><td><span class="dot s"></span>Sacharidy</td><td>${fmt(v.s)} g</td><td class="pct">${pc(sK)} %</td></tr>
-          <tr><td><span class="dot t"></span>Tuky</td><td>${fmt(v.t)} g</td><td class="pct">${pc(tK)} %</td></tr>
+          <tr><td><span class="dot b"></span>Bílkoviny</td><td>${fmt(v.b)} g</td><td class="pct">${pc(bK)} %</td></tr>
+          <tr><td><span class="dot s"></span>Sacharidy</td><td>${fmt(v.s)} g</td><td class="pct">${pc(sK)} %</td></tr>
+          <tr><td><span class="dot t"></span>Tuky</td><td>${fmt(v.t)} g</td><td class="pct">${pc(tK)} %</td></tr>
         </tbody>
       </table>
     </div>
@@ -1431,6 +1487,12 @@ function renderVysledky() {
     </div>
     ${disclaimer}
   </div>`;
+}
+function naVysledek() {
+  const out = $('#calc-out');
+  if (!out) return;
+  const klid = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  out.scrollIntoView({ behavior: klid ? 'auto' : 'smooth', block: 'start' });
 }
 const koefText = k => '×' + String(k).replace('.', ',');
 
@@ -1529,7 +1591,7 @@ document.addEventListener('click', e => {
         delete state.fotky[state.detail.id];
         saveFotky();
         state.fotoMsg = 'Fotka je odebraná.';
-        rerender();
+        render();
         announce(state.fotoMsg);
       }
       break;
@@ -1540,7 +1602,11 @@ document.addEventListener('click', e => {
       state.form = { ...UKAZKA };
       save();
       go('kalkulacka', { keepScroll: true, focus: false });
+      if (window.matchMedia && window.matchMedia('(max-width: 959px)').matches) naVysledek();
       announce('Vyplněna ukázka: muž, 30 let, 180 cm, 80 kg.');
+      break;
+    case 'na-vysledek':
+      naVysledek();
       break;
     case 'smazat':
       state.form = { ...PRAZDNY_FORM };
@@ -1565,7 +1631,7 @@ document.addEventListener('change', e => {
     }).catch(() => {
       state.fotoMsg = 'Tuhle fotku se nepodařilo otevřít. Zkus formát JPG nebo PNG.';
     }).finally(() => {
-      if (state.view === 'recept') rerender();
+      if (state.view === 'recept') render();
       announce(state.fotoMsg);
     });
     return;
@@ -1574,7 +1640,7 @@ document.addEventListener('change', e => {
     state.detail.porce = +t.value;
     rerender();
     const r = recept(state.detail.id);
-    announce(`${t.value} ${plural(+t.value, PORCE)}, celkem ${fmt(nutrice(r, state.detail.pridavky).kcal * state.detail.porce)} kcal.`);
+    announce(`${t.value} ${plural(+t.value, PORCE)}, celkem ${fmt(nutrice(r, state.detail.pridavky).kcal * state.detail.porce)} kcal.`);
     return;
   }
   if (t.dataset.addon && state.detail) {
@@ -1583,7 +1649,7 @@ document.addEventListener('change', e => {
     delete d.puvod[id];
     rerender();
     const x = r.pridavky.find(p => p.id === id);
-    announce(`${t.checked ? 'Přidáno' : 'Odebráno'}: ${x.kratky}. Porce má ${fmt(nutrice(r, d.pridavky).kcal)} kcal.`);
+    announce(`${t.checked ? 'Přidáno' : 'Odebráno'}: ${x.kratky}. Porce má ${fmt(nutrice(r, d.pridavky).kcal)} kcal.`);
     return;
   }
   if ('krok' in t.dataset && state.detail) {
@@ -1593,7 +1659,11 @@ document.addEventListener('change', e => {
     return;
   }
   if (t.name === 'jidla') { state.jidla = +t.value; save(); renderVysledky(); const el = $('#jidla-' + t.value); if (el) el.focus(); return; }
-  if (['pohlavi', 'aktivita', 'cil', 'styl'].includes(t.name)) { state.form[t.name] = t.value; save(); renderVysledky(); }
+  if (['pohlavi', 'aktivita', 'cil', 'styl'].includes(t.name)) {
+    state.form[t.name] = t.value; save();
+    document.querySelectorAll(`input[name="${t.name}"]`).forEach(i => { const l = i.closest('.opt'); if (l) l.classList.toggle('is-on', i.checked); });
+    renderVysledky();
+  }
 });
 
 document.addEventListener('input', e => {
@@ -1627,12 +1697,25 @@ document.addEventListener('keydown', e => {
   }
 });
 
+const PSANI = '#ing-input, [data-field]';
+let psaniTimer = null;
+document.addEventListener('focusin', e => {
+  if (e.target.matches && e.target.matches(PSANI)) { clearTimeout(psaniTimer); document.body.classList.add('typing'); }
+});
 document.addEventListener('focusout', e => {
-  if (e.target.id !== 'ing-input') return;
-  zavriNavrhy();
-  const to = e.relatedTarget;
-  if (to && to.closest && to.closest('.fridge')) return;
-  commitPending();
+  const t = e.target;
+  if (t.matches && t.matches(PSANI)) {
+    clearTimeout(psaniTimer);
+    psaniTimer = setTimeout(() => { const a = document.activeElement; if (!(a && a.matches && a.matches(PSANI))) document.body.classList.remove('typing'); }, 150);
+  }
+  if (t.id !== 'ing-input') return;
+  // Počkáme na klepnutí: na iPhonu se pole odfokusuje dřív, než doběhne klik na návrh nebo tlačítko.
+  setTimeout(() => {
+    const inp = $('#ing-input');
+    if (!inp || document.activeElement === inp) return;
+    zavriNavrhy();
+    commitPending();
+  }, 200);
 });
 document.addEventListener('submit', e => e.preventDefault());
 
