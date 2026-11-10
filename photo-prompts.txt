@@ -1,0 +1,78 @@
+PHOTO PROMPTS FOR COOKBOOK
+
+Use the same style for every photo so the recipe cards look consistent.
+Works with ChatGPT, Midjourney, Firefly or similar. Ask for a square image (1:1).
+Save each photo with the file name shown, e.g. scrambled-eggs.jpg, and send them back.
+
+1. Scrambled eggs  →  scrambled-eggs.jpg
+Top-down food photo of scrambled eggs (eggs, butter, milk, chives) on a matte white plate, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+2. Greek yogurt bowl with berries  →  yogurt-bowl.jpg
+Top-down food photo of greek yogurt bowl with berries (greek yogurt, berries, honey) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+3. Avocado toast  →  avocado-toast.jpg
+Top-down food photo of avocado toast (bread, avocado, lemon juice, chilli flakes) two slices on a light wooden board, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+4. Oat porridge with banana  →  oat-porridge.jpg
+Top-down food photo of oat porridge with banana (rolled oats, milk, banana, cinnamon, honey) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+5. Berry smoothie bowl  →  smoothie-bowl.jpg
+Top-down food photo of berry smoothie bowl (frozen berries, banana, plant milk) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+6. Shakshuka  →  shakshuka.jpg
+Top-down food photo of shakshuka (eggs, canned tomatoes, olive oil, bellpepper, onion, garlic, paprika, ground cumin, parsley) in a black cast-iron pan, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+7. Banana oat pancakes  →  banana-pancakes.jpg
+Top-down food photo of banana oat pancakes (rolled oats, eggs, banana, greek yogurt, oil, cinnamon) stacked on a matte white plate, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+8. Tofu scramble  →  tofu-scramble.jpg
+Top-down food photo of tofu scramble (firm tofu, oil, spinach, cherry tomatoes, spring onion, ground turmeric) on a matte white plate, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+9. Pasta with tomato sauce  →  pasta-pomodoro.jpg
+Top-down food photo of pasta with tomato sauce (dried pasta, canned tomatoes, olive oil, garlic, fresh basil) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+10. Chickpea coconut curry  →  chickpea-curry.jpg
+Top-down food photo of chickpea coconut curry (chickpeas, canned tomatoes, coconut milk, onion, garlic, curry powder, oil, coriander) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+11. Greek salad  →  greek-salad.jpg
+Top-down food photo of greek salad (tomatoes, cucumber, feta, olive oil, black olives, red onion, dried oregano) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+12. Quinoa power bowl  →  quinoa-bowl.jpg
+Top-down food photo of quinoa power bowl (cooked quinoa, chickpeas, avocado, tahini, cucumber, cherry tomatoes, red cabbage, lemon juice) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+13. Tuna and white bean salad  →  tuna-bean-salad.jpg
+Top-down food photo of tuna and white bean salad (canned tuna, white beans, olive oil, cherry tomatoes, red onion, rocket, lemon juice) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+14. Red lentil soup  →  lentil-soup.jpg
+Top-down food photo of red lentil soup (red lentils, oil, carrots, onion, garlic, canned tomatoes, ground cumin, vegetable stock, lemon juice) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+15. Hummus veggie wrap  →  hummus-wrap.jpg
+Top-down food photo of hummus veggie wrap (tortilla, hummus, grated carrot, cucumber, red pepper, spinach leaves) a wrap cut in half on a light wooden board, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+16. Chicken Caesar salad  →  chicken-caesar.jpg
+Top-down food photo of chicken caesar salad (chicken breast, romaine lettuce, parmesan, greek yogurt, oil, lemon juice, garlic) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+17. Chicken and potato traybake  →  chicken-traybake.jpg
+Top-down food photo of chicken and potato traybake (chicken breast, potatoes, olive oil, onion, garlic, smoked paprika) on a dark baking tray, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+18. Salmon poke bowl  →  salmon-poke.jpg
+Top-down food photo of salmon poke bowl (salmon, cooked rice, soy sauce, avocado, cucumber, sesame seeds, spring onion) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+19. Tofu and broccoli stir-fry  →  tofu-stir-fry.jpg
+Top-down food photo of tofu and broccoli stir-fry (firm tofu, broccoli, cooked rice, soy sauce, oil, bellpepper, garlic, fresh ginger, sesame seeds) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+20. Chilli con carne  →  chilli-con-carne.jpg
+Top-down food photo of chilli con carne (beef mince, kidney beans, canned tomatoes, oil, onion, garlic, bellpepper, ground cumin, smoked paprika, chilli flakes, coriander) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+21. Mushroom risotto  →  mushroom-risotto.jpg
+Top-down food photo of mushroom risotto (risotto rice, mushrooms, hot vegetable stock, butter, parmesan, onion, garlic, parsley) in a matte white ceramic bowl, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+22. Sweet potato and black bean tacos  →  sweet-potato-tacos.jpg
+Top-down food photo of sweet potato and black bean tacos (tortilla, sweetpotato, black beans, oil, red cabbage, avocado, lime juice, ground cumin, smoked paprika, coriander) two tacos on a matte white plate, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+23. Steak with garlic mushrooms  →  steak-mushrooms.jpg
+Top-down food photo of steak with garlic mushrooms (ribeye steak, mushrooms, butter, spinach, garlic) sliced on a matte white plate, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
+24. Quick flatbread pizza  →  flatbread-pizza.jpg
+Top-down food photo of quick flatbread pizza (bread, passata or canned tomatoes, mozzarella, olive oil, fresh basil, dried oregano) on a light wooden board, centred on a plain warm beige background (#EADFCB), soft natural daylight from the top left, soft shadow to the bottom right, fresh and appetising, no hands, no cutlery, no text, square 1:1.
+
